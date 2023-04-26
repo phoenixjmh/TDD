@@ -1,4 +1,3 @@
-const reverseString =(string)=>[...string].reverse().toString().replaceAll(',','');
-
+const reverseString =(string)=>[...string].reverse().join('');
 
 module.exports=reverseString;
