@@ -7,6 +7,6 @@ const caesarCipher=(string,factor)=>{
 
         return item=abc[scrambledChar];
     })
-    return result.toString().replaceAll(',','');
+    return result.join('');
 }
 module.exports=caesarCipher;
